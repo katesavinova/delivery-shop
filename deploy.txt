@@ -1,0 +1,10 @@
+cd backend
+python3 -m venv venv
+venv\Scripts\activate.bat
+python3 -m pip install -r requirements.txt
+pyton3 -m pip install Django==4.2
+django-admin startproject prj
+cd prj
+python manage.py runserver 8989
+./manage.py migrate
+./manage.py createsuperuser

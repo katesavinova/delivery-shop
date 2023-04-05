@@ -1,0 +1,11 @@
+# created by virtualenv automatically
+
+*. рус
+рycache
+.pytest_cache
+venv/
+node_modules/
+package-lock.json
+. vscode
+. idea
+.backend/prj/db.sqlite3

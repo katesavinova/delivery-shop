@@ -1,0 +1,4 @@
+.venv\Scripts\activate.bat
+.prj\manage.py runserver 8989
+
+#python manage.py runserver 8989
